@@ -14,7 +14,7 @@ public class Kullanici {
         System.out.print("Şifrenizi giriniz: ");
         password = inp.nextLine();
 
-        if ((userName.equals("patika")) && (password.equals("1234"))){
+        if ((userName.equals("patika")) && (password.equals("1234"))){ //string değerde eşitlik sorgulamak için equal
             System.out.println("Giriş yaptınız.");
         }else{
             System.out.println("Bilgileriniz yanlış");
